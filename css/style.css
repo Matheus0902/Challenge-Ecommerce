@@ -1,0 +1,25 @@
+.app{
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-areas: 
+    "cabecalho"
+    "conteudo"
+    "rodape";
+    grid-template-columns: auto;
+    grid-template-rows: 50px 100vh auto;
+}
+
+.cabecalho{
+    background-color: rgb(28, 193, 138);
+    grid-area: cabecalho;
+}
+
+.conteudo{
+    background-color: chocolate;
+    grid-area: conteudo;
+}
+
+.rodape{
+    background-color: darkred;
+    grid-area: rodape;
+}

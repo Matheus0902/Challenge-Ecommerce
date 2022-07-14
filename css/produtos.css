@@ -1,0 +1,54 @@
+.produtos{
+    background-color: rgb(7, 157, 162);
+    display: grid;
+    grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+    grid-template-rows: 20% 80%;
+    height: 33.33%;
+}
+
+.produtos__titulo-principal{
+    background-color: aqua;
+    grid-column: 1 / 7;
+    grid-row: 1 / 1;
+}
+
+.produtos__itens:nth-child(2){
+    background: url(../img/Skill.png) center / cover no-repeat;
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+}
+
+.produtos__itens:nth-child(3){
+    background: url(../img/Skill\ \(1\).png) center / cover no-repeat;
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+}
+
+.produtos__itens:nth-child(4){
+    background: url(../img/Skill\ \(2\).png) center / cover no-repeat;
+    grid-column: 3 / 3;
+    grid-row: 2 / 2;
+}
+
+.produtos__itens:nth-child(5){
+    background: url(../img/Skill\ \(3\).png) center / cover no-repeat;
+    grid-column: 4 / 4;
+    grid-row: 2 / 2;
+}
+
+.produtos__itens:nth-child(6){
+    background: url(../img/Skill\ \(4\).png) center / cover no-repeat;
+    grid-column: 5 / 5;
+    grid-row: 2 / 2;
+}
+
+.produtos__itens:nth-child(7){
+    background: url(../img/Skill\ \(5\).png) center / cover no-repeat;
+    grid-column: 6 / 6;
+    grid-row: 2 / 2;
+}
+
+
+
+
+

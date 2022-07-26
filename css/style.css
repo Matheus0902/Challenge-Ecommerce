@@ -1,15 +1,22 @@
+:root {
+    --azul-destaque: #2a7ae4;
+    --texto-suave: #464646;   
+    --azul--suave: #eaf2fd;
+}
+
 .app{
-    background-color: antiquewhite;
+    background-color: #E5E5E5;
     display: grid;
     grid-template-areas: 
     "cabecalho"
     "conteudo"
     "rodape";
     grid-template-columns: auto;
-    grid-template-rows: 50px 100vh auto;
+    grid-template-rows: 115px auto 102px;
 }
 
 .cabecalho{
+    height: 116px;
     grid-area: cabecalho;
 }
 
@@ -19,4 +26,7 @@
 
 .rodape{
     grid-area: rodape;
+    padding: 32px;
+    text-align: center;
+    background-color: #ffffff;
 }

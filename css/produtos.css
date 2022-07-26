@@ -1,54 +1,84 @@
 .produtos{
-    background-color: rgb(7, 157, 162);
+    width: 1136px;
+    margin: 64px auto;
+}
+
+.produtos__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.produtos__info h3{
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+    color: var(--texto-suave);
+    line-height: 38px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.produtos__info a{
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    color: var(--azul-destaque);
+    font-weight: 700;
+    line-height: 18.78px;
+}
+
+.seta{
+    margin-left: 20px;
+}
+
+.produtos__conteudo{
+    grid-area: conteudo;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:  1rem 0;
+    margin-bottom: 64px;
+}
+
+.produtos__cards{
     display: grid;
-    grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
-    grid-template-rows: 20% 80%;
-    height: 33.33%;
+    grid-template-areas: 
+        "card-img"
+        "card-corpo";
+    grid-template-columns: 100%;
+    grid-template-rows: 174px auto;
 }
 
-.produtos__titulo-principal{
-    background-color: aqua;
-    grid-column: 1 / 7;
-    grid-row: 1 / 1;
+.produtos__cards-img {
+    grid-area: card-img;
 }
 
-.produtos__itens:nth-child(2){
-    background: url(../img/Skill.png) center / cover no-repeat;
-    grid-column: 1 / 1;
-    grid-row: 2 / 2;
+.produtos__cards-corpo {
+    grid-area: card-corpo;
 }
 
-.produtos__itens:nth-child(3){
-    background: url(../img/Skill\ \(1\).png) center / cover no-repeat;
-    grid-column: 2 / 2;
-    grid-row: 2 / 2;
+.produtos__cards-corpo p:nth-child(1){
+    font-family: 'Raleway', sans-serif;
+    color: var(--texto-suave);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.44px;
 }
 
-.produtos__itens:nth-child(4){
-    background: url(../img/Skill\ \(2\).png) center / cover no-repeat;
-    grid-column: 3 / 3;
-    grid-row: 2 / 2;
+.produtos__cards-corpo p:nth-child(2){
+    font-family: 'Raleway', sans-serif;
+    color: var(--texto-suave);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18.78px;
 }
 
-.produtos__itens:nth-child(5){
-    background: url(../img/Skill\ \(3\).png) center / cover no-repeat;
-    grid-column: 4 / 4;
-    grid-row: 2 / 2;
+.produtos__cards-corpo a{
+    font-family: 'Raleway', sans-serif;
+    color: var(--azul-destaque);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.78px;
 }
-
-.produtos__itens:nth-child(6){
-    background: url(../img/Skill\ \(4\).png) center / cover no-repeat;
-    grid-column: 5 / 5;
-    grid-row: 2 / 2;
-}
-
-.produtos__itens:nth-child(7){
-    background: url(../img/Skill\ \(5\).png) center / cover no-repeat;
-    grid-column: 6 / 6;
-    grid-row: 2 / 2;
-}
-
-
 
 
 

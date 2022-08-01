@@ -12,19 +12,23 @@
     "conteudo"
     "rodape";
     grid-template-columns: auto;
-    grid-template-rows: 115px auto 102px;
 }
 
 .cabecalho{
-    height: 116px;
+    width: 100vw;
     grid-area: cabecalho;
+    background-color: #ffffff;
+    align-items: center;
+    display: flex;
 }
 
 .conteudo{
+    width: 100vw;
     grid-area: conteudo;
 }
 
 .rodape{
+    width: 100vw;
     grid-area: rodape;
     padding: 32px;
     text-align: center;

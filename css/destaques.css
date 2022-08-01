@@ -1,51 +1,20 @@
-.destaques {
-    height: 352px;
-    background-image: url(../img/mario.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    
-}
-
 .destaques__conteudo {
-    width: 1136px;
-    height: 320px;
-    top: 150px;
-    margin-left: auto;
-    margin-right: auto;
+    padding-top: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: end;
-}
-
-.destaques__conteudo p:nth-child(1){
-    font-size: 52px;
-    line-height: 61px;
-    margin-top: 0;
-}
-
-.destaques__conteudo p:nth-child(2){
-    font-size: 22px;
-    line-height: 26px;
-    margin-top: 0;
 }
 
 .texto__destaque{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     color: #ffffff;
-    vertical-align: top;
-    margin-left: 2px;
-    margin-bottom: 16px;
 }
 
 .botao__destaque {
-    width: 130px;
-    height: 51px;
     background-color: var(--azul-destaque);
     color: #ffffff;
     border: none;
     font-family: 'Raleway', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 600;
 }
 

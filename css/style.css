@@ -2,9 +2,11 @@
     --azul-destaque: #2a7ae4;
     --texto-suave: #464646;   
     --azul--suave: #eaf2fd;
+    --placeholder: #A2A2A2;
 }
 
 .app{
+    font-family: raleway;
     background-color: #E5E5E5;
     display: grid;
     grid-template-areas: 

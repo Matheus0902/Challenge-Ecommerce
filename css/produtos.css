@@ -32,7 +32,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding:  1rem 0;
 }
 
 .produtos__cards{
@@ -42,6 +41,7 @@
         "card-corpo";
     grid-template-columns: 100%;
     grid-template-rows: 174px auto;
+    padding:  1rem 0;
 }
 
 .produtos__cards-img {
@@ -50,6 +50,10 @@
 
 .produtos__cards-corpo {
     grid-area: card-corpo;
+}
+
+.produtos__cards-corpo p{
+    margin: 8px 0;
 }
 
 .produtos__cards-corpo p:nth-child(1){

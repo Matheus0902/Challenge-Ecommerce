@@ -45,7 +45,8 @@
     border: none;
     border-bottom: 1px solid rgb(167, 167, 167);
     background: #ffffff;
-    padding: 18px 12px 25px 12px;
+    padding: 0px 12px 25px 12px;
+
 }
 
 .contato__formulario-nome{
@@ -53,15 +54,27 @@
     margin-bottom: 16px;
 }
 
+.contato__formulario-nome::placeholder{
+    color: var(--placeholder);
+    font-size: 12px;
+    font-weight: 400;
+}
+
 .contato__formulario-msg{
     height: 82px;
     margin-bottom: 8px;
 }
 
+.contato__formulario-msg::placeholder{
+    color: var(--placeholder);
+    font-size: 16px;
+    font-weight: 400;
+}
+
 #btn{
     width: 165px;
     height: 51px;
-     border: none;
+    border: none;
     background-color: var(--azul-destaque);
     color: #ffffff;
     font-weight: 400;

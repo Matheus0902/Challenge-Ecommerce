@@ -33,6 +33,12 @@
     margin-left: 32px;
 }
 
+.busca::placeholder{
+    color: var(--placeholder);
+    font-size: 14px;
+    font-weight: 400;
+}
+
 .btn-login {
     width: 182px;
     height: 51px;

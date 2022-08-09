@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link href="./css/normalize.css" rel="stylesheet">
-    <link href="./css/reset.css" rel="stylesheet">
-    <link href="./css/login.css" rel="stylesheet">
-    <link href="./css/style.css" rel="stylesheet">
-    <link href="./css/menu.css" rel="stylesheet">
-    <link href="./css/rodape.css" rel="stylesheet">
-    <link href="./css/fonts.css" rel="stylesheet">
-    <link href="./css/responsivo.css" rel="stylesheet">
-    <link href="./css/contato.css" rel="stylesheet">
-    <link href="./css/login_responsivo.css" rel="stylesheet">
+    <title>Novo Produto</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/menu.css" rel="stylesheet">
+    <link href="css/contato.css" rel="stylesheet">
+    <link href="css/rodape.css" rel="stylesheet">
+    <link href="css/responsivo.css" rel="stylesheet">
+    <link href="css/novo_produto.css" rel="stylesheet">
+    <link href="css/novo_produto_responsivo.css" rel="stylesheet">
 </head>
 <body class="app">
     <header class="cabecalho">
@@ -26,18 +26,22 @@
                 </div>  
                 <input type="text" class="busca tablet-desktop" placeholder="O que deseja encontrar?">             
             </div>
-            <div class="menu__login">
+            <div class="menu__adm">
+                <button class="btn-adm">Meu administrador</button>
                 <input type="text" class="busca responsivo">
-            </div>
+            </div> 
         </nav>
     </header>
     <main class="conteudo">
-        <section class="login">
-            <div class="conteudo__login">                    
-                <h3 class="conteudo__login-title">Iniciar Sessão</h3>
-                <input class="conteudo__login-campos" type="email" placeholder="Escreva seu email">
-                <input class="conteudo__login-campos" type="password" placeholder="Escreva sua senha">
-                <button class="conteudo__login-enviar" type="button">Entrar</button>    
+        <section class="conteudo__adicionar-produto">
+            <div class="produto">
+                <h3 class="produto__title">Adicionar novo produto</h3>
+                <input class="produto__caract input" type="text" placeholder="URL da imagem">
+                <input class="produto__caract input" type="text" placeholder="Categoria">
+                <input class="produto__caract input" type="text" placeholder="Nome do produto">
+                <input class="produto__caract input" type="text" placeholder="Preço do produto">
+                <input class="produto__descricao input" type="text" placeholder="Descrição do produto">
+                <button class="produto__btn" type="button">Adicionar produto</button>
             </div>
         </section>
         <section class="contato">

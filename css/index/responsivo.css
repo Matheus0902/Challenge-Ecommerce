@@ -16,16 +16,16 @@
         width: 110px;
     }
 
-    .logo {
+    .menu__logo-img {
         width: 22.74px;
         height: 16.33px;
         margin: auto 0.2rem;
     }
-    .texto__menu{
+    .menu__logo-texto{
         font-size: 16px;
     }
 
-    .busca{
+    .menu__campo{
        width: 24px;
        height: 24px; 
        background-position-x: 0;
@@ -33,7 +33,7 @@
        background-color: #ffffff;
     }
 
-    .responsivo{
+    .mobile{
         display: block;
     }
 
@@ -47,7 +47,7 @@
         margin-left: 20px;
     }
 
-    .btn-login {
+    .menu__botao {
         width: 133px;
         height: 40px;
         font-weight: 600;
@@ -56,7 +56,7 @@
     .destaques{
         height: 192px;
         padding: 0;
-        background-image: url(../img/destaque-mobile.png);
+        background-image: url(../../img/destaque-mobile.png);
         background-size: 100vw ;
         background-repeat: no-repeat;
     }
@@ -77,11 +77,11 @@
         line-height: 16px;
     }
 
-    .texto__destaque{
+    .destaques__texto{
         margin: 0 0 8px 0;
     }
 
-    .botao__destaque {
+    .destaques__botao {
         width: 119px;
         height: 40px;
         font-size: 14px;
@@ -130,19 +130,19 @@
         height: auto;
     }
 
-    .contato__menu-logo{
+    .contato__logo{
         width: 100%;
         display: flex;
         justify-content: center;
     }
 
-    .contato__logo{
+    .contato__logo-img{
         width: 40.02;
         height: 29.17;
         margin-right: 5px;
     }
 
-    .texto__menu-contato {
+    .contato__logo-texto {
         font-size: 26px;
     }
 
@@ -162,7 +162,7 @@
 
 @media screen and (min-width: 768px) {
     
-    .responsivo{
+    .mobile{
         display: none;
     }
 
@@ -174,11 +174,11 @@
         padding: 16px 32px;
     }
 
-    .cabecalho nav{
+    .menu{
         justify-content: space-between;
     }
 
-    .busca{
+    .menu__campo{
         width: 272px;
         height: 40px;
         background-position-x: 230px;
@@ -186,14 +186,14 @@
         background-color: #f5f5f5;
     }
 
-    .btn-login {
+    .menu__botao {
         width: 166px;
     }
 
     .destaques{
         height: 352px;
         padding: 32px;
-        background-image: url(../img/destaque-tablet.png);
+        background-image: url(../../img/destaque-tablet.png);
     }
 
     .destaques__conteudo {
@@ -232,7 +232,7 @@
         justify-content: space-between;
     }
 
-    .contato__menu-logo{
+    .contato__logo{
         justify-content: start;
     }
 
@@ -246,7 +246,7 @@
         padding: 0;
     }
     
-    #btn{
+    .contato__fomulario-botao{
         width: 151px;
         height: 40px;
     }
@@ -262,7 +262,7 @@
         padding: 0 110px;
     }
     
-    .cabecalho nav{
+    .menu{
         height: 116px;
         padding: 0;
     }
@@ -271,22 +271,22 @@
         width: 176px;
     }
 
-    .logo {
+    .menu__logo-img {
         width: 40.02px;
         height: 29.17px;
         margin: auto;
     }
 
-    .texto__menu{
+    .menu__logo-texto{
         font-size: 24px;
     }
 
-    .busca{
+    .menu__campo{
         width: 393px;
         background-position-x: 353px;
     }
 
-    .btn-login {
+    .menu__botao {
         width: 182px;
         height: 51px;
         font-weight: 400;
@@ -295,7 +295,7 @@
     .destaques{
         height: 352px;
         padding: 110px;
-        background-image: url(../img/destaque-dekstop.png);
+        background-image: url(../../img/destaque-dekstop.png);
     }
 
     .destaques__conteudo {
@@ -313,11 +313,11 @@
         line-height: 26px;
     }
 
-    .texto__destaque{
+    .destaques__texto{
         margin: 0 0 16px 2px;
     }
 
-    .botao__destaque {
+    .destaques__botao {
         width: 130px;
         height: 51px;
         font-size: 16px;
@@ -364,7 +364,7 @@
         height: 234px;
     }
 
-    .contato__menu-logo{
+    .contato__logo{
         width: 176px;
     }
 
@@ -379,7 +379,7 @@
         padding: 0;
     }
 
-    #btn{
+    .contato__fomulario-botao{
         width: 165px;
         height: 51px;
     }

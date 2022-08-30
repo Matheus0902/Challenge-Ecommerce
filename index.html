@@ -7,43 +7,43 @@
     <title>Alura Geek</title>
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/reset.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/produtos.css" rel="stylesheet">
+    <link href="css/index/style.css" rel="stylesheet">
+    <link href="css/index/produtos.css" rel="stylesheet">
     <link href="css/fonts.css" rel="stylesheet">
-    <link href="css/menu.css" rel="stylesheet">
-    <link href="css/destaques.css" rel="stylesheet">
-    <link href="css/contato.css" rel="stylesheet">
-    <link href="css/rodape.css" rel="stylesheet">
-    <link href="css/responsivo.css" rel="stylesheet">
+    <link href="css/index/menu.css" rel="stylesheet">
+    <link href="css/index/destaques.css" rel="stylesheet">
+    <link href="css/index/contato.css" rel="stylesheet">
+    <link href="css/index/rodape.css" rel="stylesheet">
+    <link href="css/index/responsivo.css" rel="stylesheet">
 </head>
 <body class="app">
     <header class="cabecalho">
-        <nav>
+        <nav class="menu">
             <div class="menu__busca">
                 <div class="menu__logo">
-                    <img class="logo" src="./img/logo.png" alt="Logo da AluraGeek"> 
-                    <p class="texto__menu destaque">Alura</p><p class="texto__menu" id="geek">Geek</p>
+                    <img class="menu__logo-img" src="./img/logo.png" alt="Logo da AluraGeek"> 
+                    <p class="menu__logo-texto destaque">Alura</p><p class="menu__logo-texto" id="geek">Geek</p>
                 </div>  
-                <input type="text" class="busca tablet-desktop" placeholder="O que deseja encontrar?">             
+                <input type="text" class="menu__campo tablet-desktop" placeholder="O que deseja encontrar?">             
             </div>
             <div class="menu__login">
-                <button class="btn-login">Login</button>
-                <input type="text" class="busca responsivo">
+                <button class="menu__botao">Login</button>
+                <input type="text" class="menu__campo mobile">
             </div> 
         </nav>
     </header>
     <main class="conteudo">
         <section class="destaques">
             <div class="destaques__conteudo">
-                <p class="texto__destaque">Dezembro Promocional</p>
-                <p class="texto__destaque">Produtos selecionados com 33% de desconto</p>
-                <button class="botao__destaque">Ver Consoles</button>
+                <p class="destaques__texto">Dezembro Promocional</p>
+                <p class="destaques__texto">Produtos selecionados com 33% de desconto</p>
+                <button class="destaques__botao">Ver Consoles</button>
             </div>
         </section>
         <section class="produtos">
             <div class="produtos__info">
-                <h3 clas="produtos__titulo-principal">Star Wars</h3>
-                <a class="produtos__ver-tudo">Ver tudo<img class="seta" src="./img/seta.png"></a>
+                <h3 clas="produtos__titulo">Star Wars</h3>
+                <a class="produtos__verTudo">Ver tudo<img class="produtos__seta" src="./img/seta.png"></a>
             </div>
             <div class="produtos__conteudo">
                 <div class="produtos__cards">
@@ -96,8 +96,8 @@
                 </div>
             </div>
             <div class="produtos__info">
-                <h3 clas="produtos__titulo-principal">Consoles</h3>
-                <a class="produtos__ver-tudo">Ver tudo<img class="seta" src="./img/seta.png"></a>
+                <h3 clas="produtos__titulo">Consoles</h3>
+                <a class="produtos__verTudo">Ver tudo<img class="produtos__seta" src="./img/seta.png"></a>
             </div>
             <div class="produtos__conteudo">
                 <div class="produtos__cards">
@@ -150,8 +150,8 @@
                 </div>
             </div>
             <div class="produtos__info">
-                <h3 clas="produtos__titulo-principal">Diversos</h3>
-                <a class="produtos__ver-tudo">Ver tudo<img class="seta" src="./img/seta.png"></a>
+                <h3 clas="produtos__titulo">Diversos</h3>
+                <a class="produtos__verTudo">Ver tudo<img class="produtos__seta" src="./img/seta.png"></a>
             </div>
             <div class="produtos__conteudo">
                 <div class="produtos__cards">
@@ -206,12 +206,12 @@
         </section>
         <section class="contato">
             <div class="contato__conteudo">
-                <div class="contato__menu-logo mobile-desktop">
-                    <img class="contato__logo" src="./img/logo-contato.png" alt="Logo da AluraGeek"> 
-                    <p class="texto__menu-contato destaque">Alura</p><p class="texto__menu-contato">Geek</p>
+                <div class="contato__logo mobile-desktop">
+                    <img class="contato__logo-img" src="./img/logo-contato.png" alt="Logo da AluraGeek"> 
+                    <p class="contato__logo-texto destaque">Alura</p><p class="contato__logo-texto">Geek</p>
                 </div>
                 <div class="contato__info mobile-desktop">
-                    <ul class="contato__info-lista">
+                    <ul class="contato__lista">
                         <li>Quem somos nós</li>
                         <li>Politica de privacidade</li>
                         <li>Programa fidelidade</li>
@@ -221,12 +221,12 @@
                     </ul>
                 </div>
                 <div class="tablet">
-                    <div class="contato__menu-logo">
-                        <img class="contato__logo" src="./img/logo-contato.png" alt="Logo da AluraGeek"> 
-                        <p class="texto__menu-contato destaque">Alura</p><p class="texto__menu-contato">Geek</p>
+                    <div class="contato__logo">
+                        <img class="contato__logo-img" src="./img/logo-contato.png" alt="Logo da AluraGeek"> 
+                        <p class="contato__logo-texto destaque">Alura</p><p class="contato__logo-texto">Geek</p>
                     </div>
                     <div class="contato__info">
-                        <ul class="contato__info-lista">
+                        <ul class="contato__lista">
                             <li>Quem somos nós</li>
                             <li>Politica de privacidade</li>
                             <li>Programa fidelidade</li>
@@ -240,7 +240,7 @@
                     <h3 class="contato__formulario-titulo">Fale Conosco</h3>
                     <input class="contato__formulario-nome" type="text" placeholder="Nome">
                     <input class="contato__formulario-msg" type="text" placeholder="Escreva uma mensagem">
-                    <button class="contato__fomulario-btn" type="button" id="btn" >Enviar mensagem</button>
+                    <button class="contato__fomulario-botao" type="button" id="btn" >Enviar mensagem</button>
                 </div>
             </div>
         </section>

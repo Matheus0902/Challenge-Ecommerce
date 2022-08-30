@@ -3,7 +3,7 @@
         justify-content: space-between;
     }
 
-    .responsivo {
+    .mobile {
         background-position-x: 4px;
         background-position-y: 0px;
     }
@@ -17,7 +17,7 @@
         align-items: flex-start;
     }
 
-    .produtos__btn_adicionar{
+    .produtos__botao{
         width: 151px;
         height: 40px;
         font-size: 14px;
@@ -40,7 +40,7 @@
         padding: 16px;
     }
 
-    #btn {
+    .contato__fomulario-botao {
         width: 151px;
         height: 40px;
         font-size: 14px;

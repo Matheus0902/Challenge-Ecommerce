@@ -3,14 +3,14 @@
     align-items: center;
 }
 
-.btn-adm {
+.menu__adm-botao {
     color: var(--azul-destaque);
     background-color: #ffffff;
     border: 1px solid var(--azul-destaque);
     margin-right: 0;
 }
 
-.conteudo__adicionar-produto{
+.adicionarProduto{
     display: flex;
     justify-content: center;
 }
@@ -21,7 +21,7 @@
     width: 559px;
 }
 
-.produto__title{
+.produto__titulo{
     margin-top: 16px;
     color: var(--texto-suave);
 }
@@ -49,11 +49,16 @@
     height: 82px;
 }
 
-.produto__btn{
+.produto__botao{
     height: 51px;
     border: none;
     background-color: var(--azul-destaque);
     color: #ffffff;
     font-weight: 400;
     margin-top: 16px;
+}
+
+.contato__fomulario{
+    height: auto;
+
 }

@@ -9,7 +9,7 @@
     color: var(--texto-suave);
 }
 
-.contato__menu-logo{
+.contato__logo{
     height: 50px;
     display: flex;
     align-items: center;
@@ -22,7 +22,7 @@
     line-height: 18.78px;
 }
 
-.contato__info-lista li{
+.contato__lista li{
     margin-bottom: 24px;
 }
 
@@ -71,7 +71,7 @@
     font-weight: 400;
 }
 
-#btn{
+.contato__fomulario-botao{
     width: 165px;
     height: 51px;
     border: none;

@@ -1,4 +1,4 @@
-.conteudo__login{
+.login__conteudo{
     width: 423px;
     height: 291px;
     margin: 0 auto;
@@ -7,12 +7,12 @@
     align-items: center;
 }
 
-.conteudo__login-title{
+.login__title{
     font-weight: 700px;
     color: var(--texto-suave);
 }
 
-.conteudo__login-campos{
+.login__campos{
     width: 100%;
     border: none;
     border-radius: 4px;
@@ -20,13 +20,13 @@
     border-bottom: 1px solid rgb(167, 167, 167);
 }
 
-.conteudo__login-campos::placeholder{
+.login__campos::placeholder{
     font-size: 16px;
     font-weight: 400;
     color: var(--placeholder);
 }
 
-.conteudo__login-enviar{
+.login__enviar{
     background-color: var(--azul-destaque);
     border: none;
     color: #ffffff;

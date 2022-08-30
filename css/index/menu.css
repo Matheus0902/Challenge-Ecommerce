@@ -1,4 +1,4 @@
-.cabecalho nav {
+.menu{
     width: 100%;
     display: flex;
     font-family: 'Raleway', sans-serif;
@@ -22,10 +22,10 @@
     color: #464646;
 }
 
-.busca {
+.menu__campo {
     border-radius: 20px;
     border: none;
-    background-image: url(../img/lupa.png);
+    background-image: url(../../img/lupa.png);
     background-repeat: no-repeat;
     background-position-x: 353px;
     background-position-y: 8px;
@@ -33,13 +33,13 @@
     margin-left: 32px;
 }
 
-.busca::placeholder{
+.menu__campo::placeholder{
     color: var(--placeholder);
     font-size: 14px;
     font-weight: 400;
 }
 
-.btn-login {
+.menu__botao {
     width: 182px;
     height: 51px;
     color: var(--azul-destaque);

@@ -4,13 +4,13 @@
     flex-direction: column;
 }
 
-.texto__destaque{
+.destaques__texto{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     color: #ffffff;
 }
 
-.botao__destaque {
+.destaques__botao {
     background-color: var(--azul-destaque);
     color: #ffffff;
     border: none;
